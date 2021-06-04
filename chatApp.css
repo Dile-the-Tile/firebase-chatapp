@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    font-size: 10px;
+}
+
+.rectangle1 {
+    background-color: #a0c090;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%; 
+    box-shadow: 0 10px 30px -10px black; 
+    z-index: 0;
+}
+
+.rectangle2 {
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 70px;
+    width: 20%;
+    height: 100%;
+    box-shadow: 0 10px 30px -10px black; 
+    z-index: 1;
+}
+
+#search-container {
+    position: absolute;
+    padding: 6px 15px;
+    margin-left: 30px;
+    margin-top: 20px; 
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+#type-container {
+    position: absolute;
+    width: 50%;
+    top: 650px;
+    left: 400px;
+    background: lightgray;
+    font-size: 17px;
+    border: none;
+  }
+
+  input[name="type"] {
+    position: absolute;
+    left: -30px;
+    width: 1000px;
+    padding: 12px;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    background: #f1f1f1;
+  }
+
+  input[type="text"]:focus {
+    border: none;
+    outline: none;
+  }
+
+  .rectangle3 {
+      background-color: lightgoldenrodyellow;
+      position: absolute;
+      top: 630px;
+      left: 300px;
+      width: 84%;
+      height: 15%; 
+      box-shadow: -20px -2px 30px -10px black; 
+  }
+
+  #you-profile-pic {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+  }
+
+  #other-profile-pic {
+    position: absolute;
+    top: 10px;
+    left: 340px;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+  }
+
+  h1 {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    font-size: 20px;
+  }
+
+  h2 {
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .text-container-other {
+    border: 10px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 400px;
+    margin-left: 400px;
+  }
+  
+  .text-container-you {
+    position: absolute;
+    top: 500px;
+    right: 30px;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    background-color: #ddd;
+  } 
+
+  .text-container-other img {
+    float: left;
+    max-width: 40px;
+    width: 100%;
+    padding: 2px;
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .text-container-you img {
+    float: right;
+    max-width: 40px;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    border-radius: 50%;
+  }
+
+  .time-other {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-you {
+    margin-top: 20px;
+    float: left;
+    color: #999;
+  }
+
+  ul.friends {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  ul.friends li {
+    border: 10px solid #d3d3d3;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+  }
+    

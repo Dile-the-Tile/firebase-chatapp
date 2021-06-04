@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <link href ="sign-in.css" rel = "stylesheet" type = "text/css">
+        <title>Rishatoo</title>
+
+    </head>
+
+    <body>
+        <form action="home.html">
+            <div class = "boxed">
+                <div class = "info">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+          
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+                </div> 
+                <div class = "clearfix">
+                    <button type= "submit" class = "button sign-up">Sign in</button>
+                    <h1> Don't have an account?</h1>
+                    <button class = "button sign-in" onClick="window.location='sign-up.html';"> Sign up</button>
+                </div>
+            </div>
+        </form>
+
+    </body>
+    
+
+    </html>
+    
