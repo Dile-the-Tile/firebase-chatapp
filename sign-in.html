@@ -9,18 +9,19 @@
         <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-firestore.js"></script>
 
         <script type="text/javascript" src="initialize.js"></script>
+        <script type="text/javascript" src="index.js"></script>
 
     </head>
 
     <body>
-        <form action="home.html">
+        <form id=signInForm action="home.html" onsubmit="signIn()">
             <div class = "boxed">
                 <div class = "info">
                     <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
           
                     <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
                     
                     <label>
                         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
